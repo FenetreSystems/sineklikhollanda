@@ -137,8 +137,9 @@ export default function Home() {
                 <a href="tel:+905403363873" className="bg-primary hover:bg-[#6fa86d] text-white px-4 py-2 rounded-full font-medium transition text-sm flex items-center gap-2">
                   <PhoneIcon /> Ara
                 </a>
-                <a href="https://wa.me/905403363873" target="_blank" rel="noopener noreferrer" className="bg-secondary hover:bg-[#2a3646] text-white px-4 py-2 rounded-full font-medium transition text-sm flex items-center gap-2">
-                  <WhatsAppIcon /> WhatsApp
+                <a href="https://wa.me/905403363873" target="blank" rel="noopener noreferrer" className="bg-secondary hover:bg-[#2a3646] text-white px-4 py-2 rounded-full font-medium transition text-sm flex flex-col items-center justify-center">
+                  <WhatsAppIcon />
+                  <span>WhatsApp</span>
                 </a>
               </div>
               <button 
@@ -162,8 +163,9 @@ export default function Home() {
                   <a href="tel:+905403363873" className="bg-primary hover:bg-[#6fa86d] text-white px-4 py-3 rounded-full font-medium transition text-sm flex items-center justify-center gap-2">
                     <PhoneIcon /> +90 540 336 3873
                   </a>
-                  <a href="https://wa.me/905403363873" target="_blank" rel="noopener noreferrer" className="bg-secondary hover:bg-[#2a3646] text-white px-4 py-3 rounded-full font-medium transition text-sm flex items-center justify-center gap-2">
-                    <WhatsAppIcon /> WhatsApp
+                  <a href="https://wa.me/905403363873" target="_blank" rel="noopener noreferrer" className="bg-secondary hover:bg-[#2a3646] text-white px-4 py-3 rounded-full font-medium transition text-sm flex flex-col items-center justify-center">
+                    <WhatsAppIcon />
+                    <span>WhatsApp</span>
                   </a>
                 </div>
               </nav>
@@ -209,9 +211,10 @@ export default function Home() {
                 href="https://wa.me/905403363873"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white hover:bg-gray-100 text-secondary font-semibold py-5 px-10 rounded-full transition-all duration-300 text-xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 flex items-center gap-2 justify-center"
+                className="bg-white hover:bg-gray-100 text-secondary font-semibold py-5 px-10 rounded-full transition-all duration-300 text-xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 flex flex-col items-center justify-center"
               >
-                <WhatsAppIcon /> WhatsApp
+                <WhatsAppIcon />
+                <span>WhatsApp</span>
               </a>
             </div>
             
@@ -887,9 +890,10 @@ export default function Home() {
                   href="https://wa.me/905403363873?text=Özel%20renk%20hakkında%20bilgi%20almak%20istiyorum"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-primary hover:bg-[#6fa86d] text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 flex items-center gap-2"
+                  className="inline-block bg-primary hover:bg-[#6fa86d] text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 flex flex-col items-center justify-center"
                 >
-                  <WhatsAppIcon /> Özel Renk İste
+                  <WhatsAppIcon />
+                  <span>Özel Renk İste</span>
                 </a>
               </div>
             </div>
@@ -958,9 +962,10 @@ export default function Home() {
                   href="https://wa.me/905403363873?text=Proje%20hakkında%20bilgi%20almak%20istiyorum"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-primary hover:bg-[#6fa86d] text-white font-semibold py-4 px-10 rounded-full transition-all duration-300 flex items-center gap-2"
+                  className="inline-block bg-primary hover:bg-[#6fa86d] text-white font-semibold py-4 px-10 rounded-full transition-all duration-300 flex flex-col items-center justify-center"
                 >
-                  <WhatsAppIcon /> Proje İçin WhatsApp
+                  <WhatsAppIcon />
+                  <span>Proje İçin WhatsApp</span>
                 </a>
               </div>
             </div>
@@ -1258,9 +1263,10 @@ export default function Home() {
                   href="https://wa.me/905403363873?text=Fiyat%20teklifi%20almak%20istiyorum"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-primary hover:bg-[#6fa86d] text-white font-semibold py-4 px-10 rounded-full transition-all duration-300 flex items-center gap-2"
+                  className="inline-block bg-primary hover:bg-[#6fa86d] text-white font-semibold py-4 px-10 rounded-full transition-all duration-300 flex flex-col items-center justify-center"
                 >
-                  <WhatsAppIcon /> Fiyat Teklifi Al
+                  <WhatsAppIcon />
+                  <span>Fiyat Teklifi Al</span>
                 </a>
               </div>
             </div>
@@ -1392,9 +1398,10 @@ export default function Home() {
                 href="https://wa.me/905403363873?text=Bayilik%20hakkında%20bilgi%20almak%20istiyorum"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-primary hover:bg-[#6fa86d] text-white font-semibold py-5 px-10 rounded-full transition-all duration-300 text-xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 flex items-center gap-2"
+                className="inline-block bg-primary hover:bg-[#6fa86d] text-white font-semibold py-5 px-10 rounded-full transition-all duration-300 text-xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 flex flex-col items-center justify-center"
               >
-                <WhatsAppIcon /> Bayilik İçin WhatsApp
+                <WhatsAppIcon />
+                <span>Bayilik İçin WhatsApp</span>
               </a>
             </div>
           </div>
@@ -1420,9 +1427,10 @@ export default function Home() {
                 href="https://wa.me/905403363873"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-secondary hover:bg-[#2a3646] text-white font-semibold py-5 px-10 rounded-full transition-all duration-300 text-xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 flex items-center gap-2 justify-center"
+                className="bg-secondary hover:bg-[#2a3646] text-white font-semibold py-5 px-10 rounded-full transition-all duration-300 text-xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 flex flex-col items-center justify-center"
               >
-                <WhatsAppIcon /> WhatsApp
+                <WhatsAppIcon />
+                <span>WhatsApp</span>
               </a>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
@@ -1623,9 +1631,10 @@ export default function Home() {
           href="https://wa.me/905403363873"
           target="_blank"
           rel="noopener noreferrer"
-          className="hidden md:flex fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white w-14 h-14 rounded-full items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 z-50"
+          className="hidden md:flex fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-full items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 z-50 flex-col"
         >
           <WhatsAppIcon />
+          <span className="text-xs mt-1">WhatsApp</span>
         </a>
 
       </div>
